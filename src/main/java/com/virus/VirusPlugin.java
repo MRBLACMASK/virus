@@ -152,7 +152,7 @@ public class VirusPlugin extends JavaPlugin implements Listener, TabExecutor {
         p.setSaturation(20f);
         p.setFireTicks(0);
         p.setFallDistance(0f);
-        for (PotionEffect e : new ArrayList<>(p.getPotionEffects())) p.removePotionEffect(e.getType());
+        for (PotionEffect e : new ArrayList<>(p.getActivePotionEffects())) p.removePotionEffect(e.getType());
     }
 
     private void assignRoles() {
