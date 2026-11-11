@@ -42,7 +42,7 @@ public class VirusPlugin extends JavaPlugin implements Listener, TabExecutor {
     // ================= AYARLAR (istersen buradan degistir) =================
     private static final int AREA_SIZE = 300;        // alan boyutu (300 = 300x300)
     private static final int TOTAL_ROUNDS = 5;       // toplam tur sayisi
-    private static final int PREP_SECONDS = 60;      // her tur basinda hazirlik suresi (saniye)
+    private static final int PREP_SECONDS = 5;      // her tur basinda hazirlik suresi (saniye)
     private static final int STRENGTH_LEVEL = 0;     // 0 = Kuvvet I, 1 = Kuvvet II
     private static final int SPREAD_CANDIDATES = 20; // uzak yer secerken denenen nokta sayisi
     // =======================================================================
